@@ -251,12 +251,12 @@
         <p>Архитектура на основе порождающих, структурных и поведенческих паттернов. Гибкость, масштабируемость и соответствие SOLID.</p>
     </div>
     <div class="toc">
-        <a href="#creational">📦 Порождающие</a>
-        <a href="#structural">🏗️ Структурные</a>
-        <a href="#behavioral">⚙️ Поведенческие</a>
-        <a href="#scenario">🔥 Сценарий «Пожар»</a>
-        <a href="#extend">🧩 Расширяемость</a>
-        <a href="#justify">🎯 Обоснование выбора</a>
+        <a href="#creational"> Порождающие</a>
+        <a href="#structural"> Структурные</a>
+        <a href="#behavioral"> Поведенческие</a>
+        <a href="#scenario"> Сценарий «Пожар»</a>
+        <a href="#extend"> Расширяемость</a>
+        <a href="#justify"> Обоснование выбора</a>
     </div>
     <div class="content">
 
@@ -343,7 +343,7 @@
                     <li><strong>Memento:</strong> Перед критической операцией состояние сохраняется через <span class="inline-code">DeviceOriginator</span> для возможного отката.</li>
                     <li><strong>Visitor:</strong> После ликвидации пожара <span class="inline-code">AuditVisitor</span> собирает данные со всех задействованных устройств для отчёта.</li>
                 </ul>
-                <p>✅ Такой подход обеспечивает слабую связанность, гибкость и расширяемость без изменения ядра системы.</p>
+                <p> Такой подход обеспечивает слабую связанность, гибкость и расширяемость без изменения ядра системы.</p>
             </div>
         </section>
 
@@ -351,17 +351,16 @@
             <h2 class="section-title">8. Расширяемость архитектуры</h2>
             <div class="extend-block">
                 <ul>
-                    <li><span class="inline-code">➕ Новый тип устройства</span> → создать класс, реализующий <span class="inline-code">IDevice</span>, фабрику <span class="inline-code">DeviceFactory</span>, при необходимости адаптер.</li>
-                    <li><span class="inline-code">🧠 Новый алгоритм обработки</span> → новая стратегия <span class="inline-code">IRoutingStrategy</span> или новый обработчик в цепочку обязанностей.</li>
-                    <li><span class="inline-code">🎮 Новый способ управления</span> → новая реализация <span class="inline-code">IControlMode</span> через Bridge.</li>
-                    <li><span class="inline-code">📦 Новый сервис</span> → реализовать <span class="inline-code">IService</span> и обернуть декораторами (логирование, кэш).</li>
-                    <li><span class="inline-code">📊 Новая операция над объектами</span> → добавить нового посетителя (<span class="inline-code">IVisitor</span>) без изменения иерархии.</li>
+                    <li><span class="inline-code"> Новый тип устройства</span> → создать класс, реализующий <span class="inline-code">IDevice</span>, фабрику <span class="inline-code">DeviceFactory</span>, при необходимости адаптер.</li>
+                    <li><span class="inline-code"> Новый алгоритм обработки</span> → новая стратегия <span class="inline-code">IRoutingStrategy</span> или новый обработчик в цепочку обязанностей.</li>
+                    <li><span class="inline-code"> Новый способ управления</span> → новая реализация <span class="inline-code">IControlMode</span> через Bridge.</li>
+                    <li><span class="inline-code"> Новый сервис</span> → реализовать <span class="inline-code">IService</span> и обернуть декораторами (логирование, кэш).</li>
+                    <li><span class="inline-code"> Новая операция над объектами</span> → добавить нового посетителя (<span class="inline-code">IVisitor</span>) без изменения иерархии.</li>
                 </ul>
                 <p>Все интерфейсы и абстракции размещены в соответствующих пространствах имён, упрощая поиск и интеграцию.</p>
             </div>
         </section>
 
-        <!-- ========== ОБОСНОВАНИЕ ВЫБОРА ========== -->
         <section id="justify">
             <h2 class="section-title">9. Обоснование выбора паттернов и избегание избыточной сложности</h2>
             <div class="justify-block">
