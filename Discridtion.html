@@ -331,7 +331,7 @@
         <section id="scenario">
             <h2 class="section-title">7. Пример сценария работы: событие «Пожар»</h2>
             <div class="scenario-block">
-                <h3>📡 Как система реагирует на пожар (интеграция паттернов)</h3>
+                <h3> Как система реагирует на пожар (интеграция паттернов)</h3>
                 <ul>
                     <li><strong>Генерация события:</strong> Датчик дыма (или внешняя система) создаёт событие <span class="inline-code">"fire"</span>.</li>
                     <li><strong>Chain of Responsibility:</strong> Событие проходит через <span class="inline-code">ValidationHandler</span> → <span class="inline-code">SecurityHandler</span>. Обработчик безопасности запускает команды.</li>
@@ -343,7 +343,7 @@
                     <li><strong>Memento:</strong> Перед критической операцией состояние сохраняется через <span class="inline-code">DeviceOriginator</span> для возможного отката.</li>
                     <li><strong>Visitor:</strong> После ликвидации пожара <span class="inline-code">AuditVisitor</span> собирает данные со всех задействованных устройств для отчёта.</li>
                 </ul>
-                <p> Такой подход обеспечивает слабую связанность, гибкость и расширяемость без изменения ядра системы.</p>
+                <p>Такой подход обеспечивает слабую связанность, гибкость и расширяемость без изменения ядра системы.</p>
             </div>
         </section>
 
