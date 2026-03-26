@@ -1,4 +1,4 @@
-*для простотра что где что делает - скачайте и откройте [Discridtion.html](https://github.com/Magneziun/EkzamenPaterny/blob/master/Discridtion.html)
+*для простотра где что делает - откройте [Discridtion.html](https://htmlpreview.github.io/?https://raw.githubusercontent.com/Magneziun/EkzamenPaterny/refs/heads/master/Discridtion.html)
 
 # mart City Infrastructure: Демонстрация паттернов проектирования
 Этот проект представляет собой комплексную реализацию различных паттернов проектирования в контексте инфраструктуры «умного города». Здесь показано, как порождающие, структурные и поведенческие паттерны могут сочетаться для создания гибкой, поддерживаемой и масштабируемой системы.
